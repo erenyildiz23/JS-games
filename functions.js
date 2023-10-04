@@ -46,46 +46,6 @@ store.forEach((value,key) => console.log(`${key} $${value}`));
 
 //object properties methods use.
 
-/*const car ={
-    model:"Mustang",
-    color:"red",
-    year:2023,
-
-    drive:function () {
-        console.log(`You drive the ${this.model}`);
-    },
-    brake:function () {
-        console.log("You step on the breaks");
-    },
-}
-
-const car2 ={
-    model:"Corvette",
-    color:"blue",
-    year:2024,
-
-    drive:function () {
-        console.log(`You drive the ${this.model}`);
-    },
-    brake:function () {
-        console.log("You step on the breaks");
-    },
-}
-
-console.log(car.model);
-console.log(car.color);
-console.log(car.year);
-
-car.drive();
-car.brake();
-
-console.log(car2.model);
-console.log(car2.color);
-console.log(car2.year);
-
-car2.drive();
-car2.brake();
-*/
 //class
 
 class Player{
@@ -380,14 +340,10 @@ async function startProcess(){
 
 startProcess();
 
-//async = makes a function reeturn a promise
-//loadFile().then(value => console.log(value))
-  //  .catch(error => console.log(error));
-
 
 //ES6 modules
 
-//import {PI, getCircumference, getArea} from "./math.js";
+
 import * as MathUtil from "./math.js";
 
 console.log(MathUtil.PI);
@@ -405,7 +361,7 @@ console.log(document.title);
 console.log(document.URL);
 
 document.title ="Functions etc.";
-//document.location = "https://www.youtube.com/watch?v=FFLcR8SXKdo";
+
 
 document.body.style.backgroundColor ="skyblue";
 

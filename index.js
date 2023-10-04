@@ -1,106 +1,3 @@
-/*variables
-1.declaration(var,let,const)
-2.assignment (*assignment operator) */
-
-/*let firstName="Eren";
-let age=24;
-let student=true; //boolean
-
-age=age+1;
-
-
-console.log("hello",firstName);
-console.log("You are",age,"years old");
-console.log("Enrolled",student);
-
-document.getElementById("p1").innerHTML ="Hello " + firstName;
-document.getElementById("p2").innerHTML = "You are " + age + " years old";
-document.getElementById("p3").innerHTML = "Enrolled: " +student;
-
-/*arithmetic expression 
-operants(values,variables)+operators(+,-,*,/)
-y=x+5;
-*/
-
-/*let students =20;
-
-students = students * 2;
-
-console.log(students);
-
-/*user input*/
-
-/*let username = window.prompt("Whats your name");
-console.log(username);
-
-/*type conversions*/
-/*let age2 = window.prompt("how old are you?");
-age2= Number(age2);
-age2 += 1;
-
-console.log("Happy Birthday! You are",age2,"years old");
-
-let x;
-let y;
-let z;
-
-x=Number("3.14");
-y=String(3.14);
-z=Boolean("pizza");
-
-console.log(x,typeof x);
-console.log(y,typeof y);
-console.log(z,typeof z);
-
-//constants a variable that cannot be changed
-
-/*const pi=3.14; //increases data security
-let radius;
-let circumference;
-
-radius = window.prompt("Enter the radius of circle");
-radius =Number(radius);
-
-circumference = 2*pi *radius;
-
-console.log("The circumference is: ",circumference);
-
-//JS Math
-
-/*let t=34.45;
-let u=5;
-let v=9;
-
-let max;
-let min;
-
-//x=Math.round(t);
-//x=Math.floor(t);
-/*t =Math.PI;
-t=Math.ceil(t)
-
-max=Math.max(t,u,v);
-min=Math.min(t,u,v);
-
-console.log(t);
-
-console.log(max);
-console.log(min);
-
-//triangle formula
-
-
-
-/*a=window.prompt("Enter side A");
-a =Number(a);
-
-b=window.prompt("Enter side B");
-b =Number(b);
-
-c=Math.pow(a,2) + Math.pow(b,2);
-c=Math.sqrt(c)
-
-console.log("Side C:",c);*/
 
 let a;
 let b;
@@ -177,8 +74,7 @@ let fullName = "Snoop Dogg"
 let firstName;
 let lastName;
 
-//firstName=fullName.slice(0,4)
-//lastName = fullName.slice(5);
+
 
 firstName =fullName.slice(0,fullName.indexOf(" "));
 lastName =fullName.slice(fullName.indexOf(" ") + 1);
