@@ -8,9 +8,6 @@ const myList =document.querySelector("#fruit");
 const listItem =document.createElement("li");
 listItem.textContent ="mango";
 myList.insertBefore(listItem,myList.getElementsByTagName("li")[1]);
-
-//add/change CSS elements
-
 const title =document.getElementById("myTitle");
 
 title.style.backgroundColor = "blue";
@@ -22,26 +19,12 @@ title.style.border.display="block";
 
 //events
 
-//const element =document.getElementById("myButton");
-//element.onclick =doSomething;
-
-//const element =document.getElementById("myText");
-//const element2 =document.getElementById("myDiv");
-//element.onload =doSomething;
-//element.onchange=doSomething;
-//element2.onmouseover = doSomething;
 function doSomething() {
     alert("You did something!");
     element2.style.backgroundColor ="red";
 }
 
-//.addEventListener(event,function,useCapture)
-//You can add many events handlers to one element
-//Even the same event that invokes different functions
 
-//const innerDiv =documnet.getElementById("innerDiv");
-
-//innerDiv.addEventListener("mouseover",changeBlue);
 
 function changeBlue(){
     innerDiv.style.backgroundColor="blue";
